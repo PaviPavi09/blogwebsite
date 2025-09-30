@@ -1,0 +1,147 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.post-list-title{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0b19e8;
+  
+}
+.post-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: rgb(188, 19, 140);
+}
+.post-content{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.container-readmore{
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.container-form{
+  max-width: 500px;
+  margin: 70px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.post-author{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.post-tags{
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.read-more{
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #007bff;
+  font-size: 20px;
+  padding: 7px 20px;
+  border: 1px solid #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.edit-btn{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #28a745;
+  font-size: 20px;
+  padding: 7px 20px;
+  border: 1px solid #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.form-input{
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.delete-btn{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #dc3545;
+  font-size: 20px;
+  padding: 7px 10px;
+  color: white;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.comment-title{
+  padding-top: 20px;
+  font-size: 24px;
+}
+.form-btn{
+  display: block;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.navbar{
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-link{
+    color: black;
+
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.navbar{
+  background-color: #e3f2fd;
+  padding: 20px;
+}
+.nav-link{
+  color: #0b19e8;
+  font-weight: bold;
+}
+.card{
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px px 12px;
+  width: 400px;
+}
+.post-list{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.form-btn{
+  margin: 20px auto;
+}
